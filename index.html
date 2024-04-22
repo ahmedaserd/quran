@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Responsive Dashboard with Sliders and Music Player</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  
+    <main>
+      <nav class="main-menu">
+        <div>
+          <div class="user-info">
+            <a href="https://ahmedaserd.github.io/blacko/" target="_blank">
+            <img
+              src="xb.jpg"
+              alt="user" />
+            <p>Ahmed Ramadan</p>
+            
+          </a>
+          </div>
+          <ul>
+            <li class="nav-item active">
+              <a href="#">
+                <i class="fa fa-map nav-icon"></i>
+                <span class="nav-text">Discover</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                <i class="fa fa-arrow-trend-up nav-icon"></i>
+                <span class="nav-text">Trending</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                <i class="fa fa-compact-disc nav-icon"></i>
+                <span class="nav-text">Album</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                <i class="fa fa-circle-play nav-icon"></i>
+                <span class="nav-text">Playlist</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                <i class="fa fa-heart nav-icon"></i>
+                <span class="nav-text">Favorites</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul>
+          <li class="nav-item">
+            <a href="#">
+              <i class="fa fa-user nav-icon"></i>
+              <span class="nav-text">Profile</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#">
+              <i class="fa fa-gear nav-icon"></i>
+              <span class="nav-text">Settings</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#">
+              <i class="fa fa-right-from-bracket nav-icon"></i>
+              <span class="nav-text">Logout</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="content">
+        <div class="left-content">
+          <div class="slider-container">
+            <h1>قوائم التشغيل</h1>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="https://i.pinimg.com/564x/fd/f5/aa/fdf5aa6d140c8264d6041179a003b5b0.jpg" />
+                  <div class="slide-overlay">
+                    <h2>فارس عباد المصحف كاملاَ</h2>
+                    <button>
+                      استمع الان <i class="fa-solid fa-circle-play"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://i.pinimg.com/564x/3f/da/7e/3fda7ed5056347e700cac64d07e164c3.jpg" />
+                  <div class="slide-overlay">
+                    <h2>الحصري المصحف كاملاَ</h2>
+                    <button>
+                      استمع الان <i class="fa-solid fa-circle-play"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://i.pinimg.com/564x/9b/26/36/9b2636f5bbf7ef72abdb817018e96a4d.jpg" />
+                  <div class="slide-overlay">
+                    <h2>خالد الجليل المصحف كاملاَ</h2>
+                    <button>
+                      استمع الان <i class="fa-solid fa-circle-play"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://i.pinimg.com/564x/e9/9e/90/e99e9020d1d7cd27beaaed7010086d4a.jpg" />
+                  <div class="slide-overlay">
+                    <h2>وديع اليمني المصحف كاملاَ</h2>
+                    <button>
+                      استمع الان <i class="fa-solid fa-circle-play"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://i.pinimg.com/564x/6e/94/39/6e9439e313865bf120aa81daaeeb7215.jpg" />
+                  <div class="slide-overlay">
+                    <h2>هاني الرفاعي المصحف كاملاَ</h2>
+                    <button>
+                      استمع الان <i class="fa-solid fa-circle-play"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="artists">
+            <h1>المقرأين</h1>
+            <div class="artist-container containers">
+              <div class="artist">
+                <img
+                  src="abdal.jpg"
+                  alt="عبد الباسط عبد الصمد" />
+                <p>عبد الباسط عبد الصمد</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="https://i.pinimg.com/564x/88/e0/44/88e0449e73816003c09354e85def9465.jpg"
+                  alt="محمد صديق المنشاوي" />
+                <p>محمد صديق المنشاوي</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="https://i.pinimg.com/564x/d3/1c/c0/d31cc05ca4198ee3dcd3558a2254b979.jpg"
+                  alt="العفاسي " />
+                <p>العفاسي  </p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="https://i.pinimg.com/564x/fd/f5/aa/fdf5aa6d140c8264d6041179a003b5b0.jpg"
+                  alt="فارس عباد " />
+                <p>فارس عباد</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="https://i.pinimg.com/564x/9b/26/36/9b2636f5bbf7ef72abdb817018e96a4d.jpg"
+                  alt="خالد الجليل " />
+                <p>خالد الجليل </p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="https://i.pinimg.com/564x/0d/c9/07/0dc907282821cf2fd3022c5711f1ab7a.jpg"
+                  alt="الغامدي " />
+                <p>الغامدي </p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="https://i.pinimg.com/564x/3a/56/a0/3a56a0428ad0faca14b51ba27d74fc9b.jpg"
+                  alt="المعيقلي " />
+                <p>المعيقلي </p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="https://i.pinimg.com/564x/ce/16/20/ce162057a1ade9c255b35c87fc7edd93.jpg"
+                  alt="الدوسري " />
+                <p>الدوسري </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="albums">
+            <h1>الأكثر استماعا</h1>
+            <div class="album-container containers">
+              <div class="album">
+                <div class="album-frame">
+                  <img
+                    src="https://i.pinimg.com/564x/3f/da/7e/3fda7ed5056347e700cac64d07e164c3.jpg"
+                    alt="الحصري" />
+                </div>
+                <div>
+                  <h2>سورة يوسف</h2>
+                  <p>الحصري </p>
+                </div>
+              </div>
+
+              <div class="album">
+                <div class="album-frame">
+                  <img
+                    src="https://i.pinimg.com/564x/b1/9f/03/b19f03a9f2f09c46afbfd4f03727aee7.jpg"
+                    alt="العجمي" />
+                </div>
+                <div>
+                  <h2>سورة المائدة</h2>
+                  <p>العجمي</p>
+                </div>
+              </div>
+
+              <div class="album">
+                <div class="album-frame">
+                  <img
+                    src="https://i.pinimg.com/564x/da/9a/a2/da9aa2a43adf1b16b5239e601ee85113.jpg"
+                    alt="محمد رفعت" />
+                </div>
+                <div>
+                  <h2>سورة الكهف</h2>
+                  <p>محمد رفعت</p>
+                </div>
+              </div>
+
+              <div class="album">
+                <div class="album-frame">
+                  <img
+                    src="https://i.pinimg.com/564x/74/7c/9a/747c9a404c24c4e604cf51f197d8b3b5.jpg"
+                    alt="هزاع البلوشي" />
+                </div>
+                <div>
+                  <h2>سورة مريم</h2>
+                  <p>هزاع البلوشي</p>
+                </div>
+              </div>
+
+              <div class="album">
+                <div class="album-frame">
+                  <img
+                    src="https://i.pinimg.com/564x/24/34/cb/2434cb5ec027fb938e4fd8312a245b96.jpg"
+                    alt="حسن محمد صالح" />
+                </div>
+                <div>
+                  <h2>سورة النمل</h2>
+                  <p>حسن محمد صالح</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-content">
+          <div class="recommended-songs">
+            <h1>التحميلات الحديثة</h1>
+            <div class="song-container">
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="https://i.pinimg.com/564x/28/8a/2a/288a2a1237b195e44c24a0c4451e089a.jpg"
+                    alt="البنا" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>سورة الاحقاف</h2>
+                  <p>البنا</p>
+                </div>
+                <span>12:50</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="https://i.pinimg.com/564x/ed/51/28/ed51283cc159958f430a484d87606738.jpg"
+                    alt="الحصري" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>سورة الاسراء</h2>
+                  <p>الحصري</p>
+                </div>
+                <span>50:20</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="https://i.pinimg.com/564x/d0/2a/13/d02a13a04dd25f28a36810f0e901d0d3.jpg"
+                    alt="محمد البراك" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>سورة يوسف</h2>
+                  <p>محمد البراك</p>
+                </div>
+                <span>40:02</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="https://i.pinimg.com/564x/80/e1/e1/80e1e1340af36cb457bf6082e1ce804b.jpg"
+                    alt="مصطفى اسماعيل" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>سورة ال عمران</h2>
+                  <p>مصطفى اسماعيل</p>
+                </div>
+                <span>1:04:28</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="https://i.pinimg.com/564x/37/3a/3c/373a3cb6c0eea03516ea9d7b6ac5b716.jpg"
+                    alt="نبيل الرفاعي" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>سورة هود</h2>
+                  <p>نبيل الرفاعي</p>
+                </div>
+                <span>31:48</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="https://i.pinimg.com/564x/82/ba/15/82ba15a4a28efd39d0a7aa0f840753af.jpg"
+                    alt="الطبلاوي" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>سورة طه</h2>
+                  <p>الطبلاوي</p>
+                </div>
+                <span>26:24</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="https://i.pinimg.com/564x/85/27/cf/8527cf694f379425e43b9a4fe54b6cfb.jpg"
+                    alt="الغامدي" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>سورة الانبياء</h2>
+                  <p>الغامدي</p>
+                </div>
+                <span>25:13</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="https://i.pinimg.com/564x/ec/48/9d/ec489db0ef3c1608a6d8c46166e0fb0b.jpg"
+                    alt="فارس عباد" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>سورة النساء</h2>
+                  <p>فارس عباد</p>
+                </div>
+                <span>4:20</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="https://i.pinimg.com/564x/8e/9d/be/8e9dbe0ed53280be5398167d1ccc8b7b.jpg"
+                    alt="اسلام صبحي" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>سورة المؤمنون</h2>
+                  <p>اسلام صبحي</p>
+                </div>
+                <span>23:02</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="music-player">
+            <div class="album-cover">
+              <img src="images/album-cover.png" id="rotatingImage" alt="" />
+              <span class="point"></span>
+            </div>
+
+            <h2>Redemption</h2>
+            <p>Besomorph & Coopex</p>
+
+            <audio id="song">
+              <source src="Besomorph-Coopex-Redemption.mp3" type="audio/mpeg" />
+            </audio>
+
+            <input type="range" value="0" id="progress" />
+
+            <div class="controls">
+              <button class="backward">
+                <i class="fa-solid fa-backward"></i>
+              </button>
+              <button class="play-pause-btn">
+                <i class="fa-solid fa-play" id="controlIcon"></i>
+              </button>
+              <button class="forward">
+                <i class="fa-solid fa-forward"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
